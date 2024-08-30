@@ -1,0 +1,91 @@
+.login{
+    background-color: rgb(253, 201, 216);
+    width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 10px 10px 5px #aaaaaa;
+    margin-left: 430px;
+    margin-top: 70px;
+}
+.formtitle{
+    color: green;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+.pic{
+    height: 100px;
+    width: 400px;
+    margin-left: 27px;
+   }
+.heading{
+    font-size: 20px;
+    font-weight: 800;
+}
+.box{
+    width: 89%;
+    height: 30px;
+    padding: 3px;
+    border: #c2c2c2  
+}
+.btnn{
+    background-color: green;
+    border-radius: 5px;
+    width: 90%;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.btnn:hover {
+    background-color: rgb(41, 17, 80);
+    color: white;
+    font-size: large;
+}
+@media only screen and (max-width: 800px) and (min-width: 400px) {
+    .login{
+        margin-left:200px ; 
+        width: 350px;
+    }
+    .pic{
+         margin-left: 15px;
+    }
+    .heading{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .box{
+        width: 79%;
+        height: 20px;
+    }
+    .btnn{
+        width: 80%;
+        height: 34px;
+    }
+
+  
+}
+
+@media screen and (max-width: 400px) {
+    .login{
+        margin-left: 10px;  
+        width: 300px;
+        font-size: 15px;
+    }
+    .pic{
+        margin-left: 40px;
+        height: 70px;
+        width: 210px;
+   }
+     .heading{
+        font-weight: 500;
+     }
+    .box{
+        width: 79%;
+        height: 30px;
+    }
+    .btnn{
+        width: 81%;
+        height: 35px;
+    }
+
+}
